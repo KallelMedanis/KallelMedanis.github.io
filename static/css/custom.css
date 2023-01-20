@@ -1,0 +1,309 @@
+header{
+  height: 120px;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nseLogo{
+  height: 60%;
+}
+
+.container {
+  background-color: rgba(168,2,56,0.5);
+  height: 60%;
+  margin-left: 30px;
+  overflow: hidden;
+  display: flex;
+  /* Fonctionne avec toutes les tailles */
+  top: 40%;
+  /* pour rotate on enlève le translate et on rajoute le rotate */
+  /* transform:  rotate(90deg); */
+}
+.bic{
+  width:40px;
+}
+.container h2{
+  margin: 10px;
+  white-space: nowrap;
+  font-size: 30px;
+  animation: scrollTxt 60s linear infinite;
+}
+
+@keyframes scrollTxt {
+  0%{
+    transform: translate(15%, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.toolsH{
+  padding-top: 20px;
+  color: rgba(168,2,56,1)
+}
+.tools{
+  
+  padding: 20px 0;
+  display: flex; 
+  justify-content:space-around;
+  align-items: center;
+  
+}
+.Alltools{
+  background-color: gainsboro;
+  text-align: center;
+  height: 370px;
+}
+.tools img{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+body
+{
+    margin: auto;
+    width: 90%;
+}
+.barre{
+  background-color: transparent;
+  width: 72%;
+  height: 0px;
+  position: absolute;
+  z-index: 0;
+  border-bottom: 1.5px rgba(168,2,56,1) dotted;
+}
+.powerBI{
+  width: 100%;
+}
+.tradingTime{
+  background-color: orange;
+  color: white;
+}
+.tradingPlanning{
+  background-color: rgba(168,2,56,1);
+  color: wheat;
+}
+.aa{
+  color: transparent;
+  position: absolute;
+}
+i{
+  color: rgba(168,2,56,1);
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+h3{
+  margin-left: 20px;
+}
+
+.toHi{
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 2px solid rgba(168,2,56,1);
+  width: 250px;
+  height: 180px;
+  transform: translate(-95px,-200px);
+  border-radius: 15px;
+}
+.toHi h1{
+  margin: 0;
+}
+.toHi p{
+  margin: 0 2px;
+  text-align: start;
+}
+.fl{
+  color: transparent;
+  position: relative;
+  transform: translate(30px,-105px);
+}
+
+.bb{
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100%;
+  border: solid rgba(168,2,56,1) 3px;
+  font-size: 25px;
+  transform: translateY(70%);
+}
+.fa-table{
+  left: 38.4%;
+}
+.fa-cloud{
+  right: 38.2%;
+}
+.fa-chart-line{
+  right: 19.1%;
+}
+.json{
+  position: absolute;
+  padding: 5px;
+  transform: translateY(-70%);
+  color: transparent;
+  font-size: 11px;
+  font-weight: bolder;
+  left: 19.1%;
+}
+.rapidapiLink{
+  text-align: start;
+  padding: 20px;
+  transform: translateY(80px);
+}
+span{
+  color: rgba(168,2,56,1);
+  font-weight: bold;
+}
+.fa-circle{
+  z-index: 100;
+}
+.tradingTime h1{
+  font-size: 18px;
+  text-align: center;
+  color: rgba(168,2,56,1);
+  border: 1.5px solid rgba(168,2,56,1);
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.allTime{
+  background-color: orange;
+  text-align: center;
+  border: 1.5px solid rgba(168,2,56,1);
+  margin-bottom: 5px;
+}
+.allTime h1{
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(168,2,56,1);
+  padding: 0;
+  margin: 5px;
+}
+.tradingPlanning h1{
+  font-size: 23px;
+  padding: 10px;
+}
+.pythonScript{
+  opacity: 0;
+  position: absolute;
+  left: 5%;
+  transform: translateY(345px);
+}
+.pythonScript img{
+  width: 440px;
+  height: 580px;
+}
+.picLin{
+  position:absolute;
+  left: 5%;
+  opacity: 0;
+}
+.fa-arrow-down{
+  position: absolute;
+}
+.fa-arrow-up-long{
+  position: absolute;
+}
+.picLin img{
+display: inline-block;
+  width: 82%;
+  height: 450px;
+}
+.JCArrowdown{
+  color: rgba(168,2,56,1);;
+  left: 20.7%;
+  transform: translateY(65px);
+  background-color: white;
+  border-radius: 50px;
+  padding: 1px 3px;
+  border: 1px solid rgba(168,2,56,1);
+}
+.JCArrowlong{
+  color: rgba(168,2,56,1);
+  left: 20.7%;
+  transform: translateY(65px);
+  background-color: white;
+  border-radius: 50px;
+  padding: 1px 3px;
+  border: 1px solid rgba(168,2,56,1);
+}
+.ConfArrowdown{
+  color: rgba(168,2,56,1);
+  left: 39.7%;
+  transform: translateY(-40px);
+  background-color: white;
+  border-radius: 50px;
+  padding: 1px 3px;
+  border: 1px solid rgba(168,2,56,1);
+}
+.ConfArrowlong{
+  color: rgba(168,2,56,1);
+  left: 39.7%;
+  transform: translateY(-40px);
+  background-color: white;
+  border-radius: 50px;
+  padding: 1px 3px;
+  border: 1px solid rgba(168,2,56,1);
+}
+.azureBor{
+  position: absolute;
+  width: 130px;
+  height: 100px;
+  transform: translate(10px,50px);
+  border:1.5px rgba(168,2,56,1) dotted;
+  border-top: none;
+}
+.azurePic img{
+  position: absolute;
+  transform: translate(-40px,60px);
+  border:1.5px rgba(168,2,56,1) dotted ;
+  
+}
+.azurePic{
+  position: absolute;
+}
+footer{
+  background-color: rgba(168,2,56,0.5);
+}
+.HideFrom{
+  display: none;
+}
+.addTo{
+  display: block;
+}
+@media only screen and (max-width:800px) {
+  .laptop{
+    display: none;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,181,49);
+  }
+  .mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242,181,49);
+  }
+  .mobile div{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 50%;
+  }
+}

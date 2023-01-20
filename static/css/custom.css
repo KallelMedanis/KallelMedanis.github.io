@@ -281,6 +281,9 @@ footer{
 .addTo{
   display: block;
 }
+.mobile{
+    display: none;
+  }
 @media only screen and (max-width:800px) {
   .laptop{
     display: none;

@@ -16,10 +16,7 @@ header{
   margin-left: 30px;
   overflow: hidden;
   display: flex;
-  /* Fonctionne avec toutes les tailles */
   top: 40%;
-  /* pour rotate on enlève le translate et on rajoute le rotate */
-  /* transform:  rotate(90deg); */
 }
 .bic{
   width:40px;
